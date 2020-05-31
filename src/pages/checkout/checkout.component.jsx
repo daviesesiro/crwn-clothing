@@ -33,7 +33,7 @@ const CheckoutPage =({cartItems, total})=>(
         <div className='test-warning'>
             *Please use the follwoing test credit card for mad* 
             <br/>
-            4242 4242 4242 4242 - Exp: 01/20 -CVV:123
+            4242 4242 4242 4242 - Exp: 01/20 - CVC:123
         </div>
         <div className='total'> TOTAL: ${total}</div>
         <StripeCheckoutButton price={total}/>
